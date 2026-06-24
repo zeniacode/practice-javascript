@@ -34,4 +34,42 @@ let ageFiledchecked = false;
 // think of it as yes or no, on and off.
 
 // 5. Null:
-// 
+// null means "nothing".
+let name = "null";
+// this telling javascript that this variable has no value currently.
+// It’s just a special value which represents “nothing”, “empty” or “value unknown”.
+
+// 6. undefined:
+// Udefined means "A value has not been given yet".
+let x;
+// if a variable declared and not assinged then the value is undefined.
+// if we do this 
+let x;
+console.log(x);
+// the output will be undefined.
+
+// undefined vs Null:
+let phoneNumber;
+// it means that varilable is created but the value is not given.
+let phoneNumber = "null";
+// it means that variable is created but value is not given Intentionally.
+
+// 7. Objects and Symbols:
+// An object is a way to store multiple pieces of information together.
+// ex: without object,
+let name = "Zenia";
+let age = 24;
+let city = "siliguri";
+// we have 3 separete variables.
+
+// ex: with object,
+let information ={
+     name = "Zenia",
+     age = "24",
+     city = "siliguri",
+}
+// now all the information is stored in on object.
+// in simple word we can think object as a folder were we can put things togathere.
+
+// The typeof operator:
+
