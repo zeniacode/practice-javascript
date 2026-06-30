@@ -22,6 +22,7 @@ console.log("Your marks are " + marks);
 // Boolean conversaion means turning a value into either:
 // "True" or "False".
 // Boolean syntax is "Boolen(value)"
+
 // ex: number to boolean,
 console.log(Boolean(100));
 console.log(Boolean(0));
