@@ -1,11 +1,11 @@
-// type of conversation is changing value one data type  to another data type.
+// type of conversion is changing value one data type  to another data type.
 // basically type of is aking javascript is "what kind of datais this?"
 // Numeric conversion:
 // Numeric conversaion means turing a value of anothere date type into a number(like truing a text to a number).
 // ex:
 let num = "123"; // this is a string because it inside the quotes.
 let converted = Number(num);
-console.log(num);
+console.log("string to number: ",num, typeof converted);
 
 // string conversion:
 // string conversaion means turing a value of anothere date type into a string.(like truing a number into a text).
@@ -13,7 +13,7 @@ console.log(num);
 let age = 31;
 let text = String(age);
 console.log(text);
-console.log(typeof text);
+console.log("number to string conversion : ", age + " is a " + typeof age, "converted to " + typeof text);
 // ex:
 let marks = 95;
 console.log("Your marks are " + marks);
@@ -21,12 +21,15 @@ console.log("Your marks are " + marks);
 // Boolean conversaion:
 // Boolean conversaion means turning a value into either:
 // "True" or "False".
-// Boolean syntax is "Boolen(value)"
+// Boolean syntax is "Boolean(value)"
 
 // ex: number to boolean,
 console.log(Boolean(100));
 console.log(Boolean(0));
 console.log(Boolean(1));
+console.log("-2 testing",Boolean(-2));
+
+
 // so any non-zero number will be faslse and number will be true.
 
 // ex: string to boolean,

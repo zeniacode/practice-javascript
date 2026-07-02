@@ -7,21 +7,23 @@ let x = 5; // here 5 is the opreand.
 let y = 6;
 let z = x + y; // and here + is the oparetor.
 console.log(z)
-// so 5 is the operand = action, and + is oparetor = thing that action is performed on.
+// things on which actions to be performed are called operand (think it like ingredients use in tea making are milk, tea, sugar)
+// ANd the things using which actions are performed called operator (think like boiling water is an action, turning on gas is an action, stiring is an action)
+// so 5 is the operand and + is oparetor becasue 5 is the thing on which action to be performed, + is a thing using which addition/concatination operation gets performed
 
 // unary:
 // an unary oparetor that works on only one operand.
 // "uni" means one.
 // ex:
 let a = 5;
--a
-console.log(-a);
+a = -a;
+console.log("unary ", a);
 let b = 6;
 +b
 console.log(+b)
 
 // binary:
-// binary oparetor thta works on two opreands.
+// binary oparetor that works on two opreands.
 // "bi" means two.
 // ex:
 let d = 10 + 4;
@@ -52,7 +54,7 @@ let firstName = "Zenia";
 let lastName = "Mukhuti";
 console.log(firstName + lastName);
 
-// now if any of opreans is string then the othere one convert into sting too.
+// now if any of opreands is string then the othere one convert into sting too.
 // for ex:
 let a1 = "10";
 let b1 = 20;
@@ -70,10 +72,10 @@ let converted = Number(age);
 console.log(age);
 
 // what dose unary "+" means :
-// its helps to convert the valu into a number:
+// its helps to convert the value into a number:
 // ex:
 let num = "200";
-console.log(+num);
+console.log("number ", typeof +num);
 
 // Operator precedence : 
 // operator precedence means deciding which opreation javascript does first.
@@ -119,6 +121,7 @@ console.log(s);
 
 let score = 50;
 score++; //its shorthand writen.
+++score
 console.log(score);
 
 // decrement:
@@ -126,4 +129,5 @@ console.log(score);
 // ex:
 let score1 = 5;
 score1--;
+--score1
 console.log(score1);
