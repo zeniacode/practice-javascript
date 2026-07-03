@@ -1,4 +1,4 @@
-// Conditional branching
+// Conditional branching:
 // Conditional branching means making decisions in your program.
 // like : if this is true do one thing or Otherwise, do something else.
 
