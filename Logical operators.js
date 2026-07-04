@@ -6,7 +6,7 @@
 // 3. ! (NOT);
 
 // 1. || (OR) : 
-// if any of operator are true it retur true otherwise its false
+// if any of operator are true it return true otherwise its false.
 // ex:
 let isWeekand = false;
 let isHoliday = true;
@@ -15,6 +15,16 @@ if (isWeekand || isHoliday){
 }
 // anothere ex: 
 console.log(10 > 5 || 2 < 8);
+
+// truth table for || (or):
+
+// | Condition 1 | Condition 2 | Result |
+// | ----------- | ----------- | ------ |
+// | true        | true        | true   |
+// | true        | false       | true   |
+// | false       | true        | true   |
+// | false       | false       | false  |
+
 
 // 2. && (AND) :
 // the and (&&) operator return "true" onlyn if both the condition is true.
