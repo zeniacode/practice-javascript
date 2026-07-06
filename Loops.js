@@ -2,7 +2,7 @@
 // Loops is a concept that help us to repat o block of code multiple times without writing it over and over.
 
 // Types of Loops:
-// 1. while loop, 2. do...while loops , 3.for loops
+// 1. while loop, 2. do...while loops , 3.for loop
 
 // 1. while Loops:
 // so while loops repeats when the condition is true.
@@ -11,6 +11,7 @@
 // }
 // ex:
 let p = 1;
+console.log("Starting while loop");
 while(p <= 5) {
      console.log(p);
      p++;
@@ -24,6 +25,7 @@ while(p <= 5) {
 // } while condition;
 
 let i = 1;
+console.log("Do while loop");
 do {
      console.log(i);
      i++
@@ -36,13 +38,13 @@ do {
 
 // 3. for loops:
 // this loop can be used when you want to repeat something or you know how many times you want to repeat something.
-// syntax: for(being ; condition ; step){
+// syntax: for(begin ; condition ; step){
 //                         loop body....
 // }
 // ex:
 
-for(let i1 = 1; i1 <= 100; i1++){
-     console.log(i1);
+for(let j = 1; j <= 100; j++){
+     console.log(j);
 }
 
 // Breaking the loop:
