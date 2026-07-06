@@ -18,28 +18,29 @@ switch (fruit) {
   default:
      console.log("current fruit is berry")
 }
+     
 
-let day = "saturday";
-switch(day) {
-     case "firday" :
-          console.log("today is firday")
-          break
-     case "monday" :
-          console.log("today is monday")  
-          break
-     case "saturday" :
-          console.log("today is saturday")
-          break
-     default :
-     console.log("today is sunday")
-     break             
+// Grouping of “case” :
+// Grouped cases allow multiple values to execute the same code block in a switch statement.
+// ex:
+let day = "Saturday";
+switch(day){
+     case "Saturday":
+     case "Sunday":
+          console.log("Weekend");
+          break;
+     
+     default:
+          console.log("weekday");
+
 }
+
 // when use switch:
 // when we're comparing one variable against many values.
 
 // Quick summary :
 
-// switch checks one expression against multiple values.
-// case defines a value to compare against.
-// break stops execution after a matching case.
-// default runs if no case matches
+// switch = checks one expression against multiple values.
+// case = defines a value to compare against.
+// break = stops execution after a matching case.
+// default = runs if no case matches
