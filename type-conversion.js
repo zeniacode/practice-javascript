@@ -30,7 +30,7 @@ console.log(Boolean(1));
 console.log("-2 testing",Boolean(-2));
 
 
-// so any non-zero number will be faslse and number will be true.
+// so any non-zero number (like 2, -2)  will be true. 
 
 // ex: string to boolean,
 console.log(Boolean("Hello"));

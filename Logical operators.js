@@ -13,6 +13,9 @@ let isHoliday = true;
 if (isWeekand || isHoliday){
      console.log("you dont have to work")
 }
+
+// abc || cdcd || dsfdv || dfgv || sdcd
+
 // anothere ex: 
 console.log(10 > 5 || 2 < 8);
 
@@ -36,7 +39,11 @@ console.log(age >= 18 && hasId);
 // but 
 let age1 = 16;
 let hasId1 = true;
-console.log(age1 >= 18 && hasId1);
+console.log(age1 >= 18 && hasId1); console.log(false && true)
+if(age1 <= 18 && hasId1)
+{
+     console.log("print me AND testing")
+}
 // the output will be false because the person is not yet 18, but has id but still out put will false.
 
 
@@ -45,8 +52,8 @@ console.log(age1 >= 18 && hasId1);
 // | Condition 1 | Condition 2 | Result |
 // | ----------- | ----------- | ------ |
 // | true        | true        | true   |
-// | true        | false       | true   |
-// | false       | true        | true   |
+// | true        | false       | false   |
+// | false       | true        | false   |
 // | false       | false       | false  |
 
 // 3. !(NOT) :
@@ -60,3 +67,8 @@ console.log(!isLoggedIn);
 console.log(!(10 > 5));
 // became false because its true and "!" this operator reverses the value.
 
+let age2 = 13
+if(!(age2 > 18))
+{
+     console.log("She is not adult")
+}

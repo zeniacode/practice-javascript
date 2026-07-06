@@ -25,9 +25,28 @@ let value1 = null;
 console.log(value1 || "default");
 console.log(value1 ?? "default");
 // both operator return default because null means "no value".
-let value2 = undefined;
+let value2 = true;
 console.log(value2 || "Default");
 console.log(value2 ?? "Default");
 // again it return default because the value is undefined.
 
-// 
+let userName
+if(value2)
+     console.log(`UserName is: ${userName?? "default username"}`)
+
+// if(value2) {
+//      if(userName)
+//                console.log(`UserName is: ${userName?? "default username"}`)
+//      else
+//                console.log(`UserName is: default username`)
+// }
+
+// userName && <button></button>
+let i=0
+for (;;) {
+  // repeats without limits
+     if(i)
+          // continue;
+  console.log("Your are hacked", i++)
+
+}
