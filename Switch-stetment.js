@@ -1,5 +1,5 @@
 // the switch stetment :
-// this stetment "switch" is way to exucute multiple block of code on basis od valu and variable.
+// this stetment "switch" is way to exucute multiple block of code on basis od value and variable.
 // ex:
 let fruit = "apple";
 switch (fruit) {

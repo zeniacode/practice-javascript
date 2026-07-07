@@ -35,7 +35,7 @@ showColor()
 function introduction(name , age = 24){
      console.log(name + " is " + age + " years old");
 }
-introduction("Zenia" ,);
+introduction("Zenia");
 // so here 24 is a default value, since age is not called so it use the default value.
 
 
